@@ -1,0 +1,407 @@
+#mainBackground {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #03406b; */
+
+  /* background-color: #9b989c; */
+  background:
+    /* linear-gradient(rgba(3, 64, 107, 0.603),rgba(3, 64, 107, 0.603)100%), */
+    /* linear-gradient(rgba(67, 0, 122, 0.6), rgba(67, 0, 122, 0.6)100%), */
+    linear-gradient(rgba(115, 113, 116, 0.712), rgba(115, 113, 116, 0.712)100%),
+    url("src\assets\images\loginPageBackground2.jpg");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: 50%;
+  position: fixed;
+}
+
+#designBox {
+  height: 50vh;
+  width: 70vw;
+  background-color: rgba(67, 0, 122, 0.87);
+  /* background-color: rgba(155, 152, 156, 0.6); */
+  margin: auto;
+  margin-top: 27vh;
+  /* box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.596); */
+  /* border-radius: 20px; */
+}
+
+#loginBox {
+  position: absolute;
+  margin-left: 29vw;
+  margin-right: 3wv;
+  margin-top: -4vh;
+  height: 58vh;
+  width: 37vw;
+  background-color: white;
+  /* background-color: rgb(196, 194, 194);
+  filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  
+  /* background: linear-gradient(
+      rgba(233, 174, 86, 0.966),rgb(255, 255, 255) 100%); */
+  /* border-radius: 20px; */
+  /* box-shadow: 4px 6px 6px 5px rgba(0, 0, 0, 0.658); */
+  /* box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.596); */
+}
+
+#innerLoginBox {
+  width: 35vw;
+  height: 56vh;
+  position: relative;
+  margin: auto;
+  margin-top: 1vh;
+  /* background: linear-gradient(rgb(255, 255, 255),
+      rgba(243, 161, 39, 0.808) 70%); */
+  /* background: radial-gradient(rgb(247, 216, 181),
+      rgba(228, 141, 10, 0.808)); */
+  /* background-color: rgba(255, 175, 55, 0.808); */
+  border-radius: 10px;
+  background-color: rgba(141, 110, 165, 0.671);
+  /* background: linear-gradient(rgba(140, 132, 146, 0.671),rgba(94, 7, 165, 0.87) 80%); */
+}
+
+
+/* (228, 134, 10, 0.808) */
+
+/* 
+#Heading {
+  position: absolute;
+  width: 30vw;
+  margin: auto;
+  color: white;
+  margin-top:12vh;
+  text-align: center;
+}
+
+#headingText>h3{
+  font-size:2.5em;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*/
+
+#appLogo {
+  margin-top: 0px;
+  /* width:100px;
+  height:100px; */
+  font-size: 3.9em;
+  margin: auto;
+}
+
+h3 {
+  font-size: 2em;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: -1vh;
+}
+
+#heading {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: rgba(67, 0, 122);
+}
+
+#heading>hr {
+  /* background-color: rgb(27, 3, 46); */
+  width: 85%;
+  margin: auto;
+  background-color: rgba(67, 0, 122);
+  border: 1px solid rgba(67, 0, 122);
+  opacity: 0.8;
+  margin-bottom: 2vh;
+}
+
+
+#description {
+  position: absolute;
+  height: 100px;
+  width: 27vw;
+  margin-top: 20vh;
+  margin-left:2vw;
+}
+
+#logo {
+  color: white;
+  font-size: 3.4em;
+}
+
+#appDescription{
+  color:white;
+  font-size: 1.3em;
+}
+
+
+
+@media only screen and (max-width:700px) {
+
+  #designBox {
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(67, 0, 122, 0.87);
+    /* background-color: rgba(155, 152, 156, 0.6); */
+    margin: auto;
+    margin-top: 26vh;
+    padding-top: 2vh;
+    ;
+    /* box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.596); */
+    /* border-radius: 20px; */
+  }
+
+  #loginBox {
+    position: relative;
+    /* margin-left: 29vw;
+    margin-right: 3wv; */
+    margin-top: 2vh;
+    margin: auto;
+    height: 44vh;
+    width: 56vw;
+    background-color: white;
+    /* border-radius: 20px; */
+
+    /* background: linear-gradient(
+        rgba(233, 174, 86, 0.966),rgb(255, 255, 255) 100%); */
+    /* border-radius: 20px; */
+    /* box-shadow: 4px 6px 6px 5px rgba(0, 0, 0, 0.658); */
+    /* box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.596); */
+  }
+
+  #innerLoginBox {
+    width: 35vw;
+    height: 56vh;
+    position: relative;
+    margin: auto;
+    margin-top: 1vh;
+    /* background: linear-gradient(rgb(255, 255, 255),
+        rgba(243, 161, 39, 0.808) 70%); */
+    /* background: radial-gradient(rgb(247, 216, 181),
+        rgba(228, 141, 10, 0.808)); */
+    /* background-color: rgba(255, 175, 55, 0.808); */
+    border-radius: 10px;
+  }
+
+
+  #appLogo {
+    margin-top: 0px;
+    /* width:100px;
+  height:100px; */
+    font-size: 3.3em;
+    margin: auto;
+  }
+
+  h3 {
+    font-size: 1.7em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -1vh;
+  }
+
+  #heading {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: rgba(67, 0, 122);
+  }
+
+  
+#description {
+  position: absolute;
+  height: 100px;
+  width: 100vw;
+  margin-top: 48vh;
+  margin-left:2vw;
+}
+
+#logo {
+  color: white;
+  font-size: 3.4em;
+}
+
+#appDescription{
+  color:white;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+
+}
+
+
+@media only screen and (min-width:1000px) {
+
+  #designBox {
+    height: 56vh;
+    width: 70vw;
+    background-color: rgba(67, 0, 122, 0.87);
+    /* background-color: rgba(155, 152, 156, 0.6); */
+    margin: auto;
+    margin-top: 24vh;
+    /* box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.596); */
+    /* border-radius: 20px; */
+  }
+
+  #loginBox {
+    position: absolute;
+    margin-left: 33vw;
+    margin-right: 3wv;
+    margin-top: -4vh;
+    height: 64vh;
+    width: 30vw;
+    background-color: white;
+
+    /* background: linear-gradient(
+      rgba(233, 174, 86, 0.966),rgb(255, 255, 255) 100%); */
+    /* border-radius: 20px; */
+    /* box-shadow: 4px 6px 6px 5px rgba(0, 0, 0, 0.658); */
+    /* box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.596); */
+  }
+
+  #innerLoginBox {
+    width: 35vw;
+    height: 56vh;
+    position: relative;
+    margin: auto;
+    margin-top: 1vh;
+    /* background: linear-gradient(rgb(255, 255, 255),
+      rgba(243, 161, 39, 0.808) 70%); */
+    /* background: radial-gradient(rgb(247, 216, 181),
+      rgba(228, 141, 10, 0.808)); */
+    /* background-color: rgba(255, 175, 55, 0.808); */
+    border-radius: 10px;
+  }
+
+
+  
+}
+
+
+
+@media only screen and (min-width:1200px) {
+
+  #designBox {
+    height: 58vh;
+    width: 70vw;
+    background-color: rgba(67, 0, 122, 0.87);
+    /* background-color: rgba(155, 152, 156, 0.6); */
+    margin: auto;
+    margin-top: 24vh;
+    /* box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.596); */
+    /* border-radius: 20px; */
+  }
+
+  #loginBox {
+    position: absolute;
+    margin-left: 34vw;
+    margin-right: 3wv;
+    margin-top: -4vh;
+    height: 66vh;
+    width: 30vw;
+    background-color: white;
+
+    /* background: linear-gradient(
+        rgba(233, 174, 86, 0.966),rgb(255, 255, 255) 100%); */
+    /* border-radius: 20px; */
+    /* box-shadow: 4px 6px 6px 5px rgba(0, 0, 0, 0.658); */
+    /* box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.596); */
+  }
+
+  #innerLoginBox {
+    width: 35vw;
+    height: 56vh;
+    position: relative;
+    margin: auto;
+    margin-top: 1vh;
+    /* background: linear-gradient(rgb(255, 255, 255),
+        rgba(243, 161, 39, 0.808) 70%); */
+    /* background: radial-gradient(rgb(247, 216, 181),
+        rgba(228, 141, 10, 0.808)); */
+    /* background-color: rgba(255, 175, 55, 0.808); */
+    border-radius: 10px;
+  }
+
+}
+
+#formbody{
+  width:90%;
+  /* background-color:rgb(170, 81, 81); */
+  height: 40%;
+  position:relative;
+  margin:auto;
+  margin-top:4vh;
+}
+
+
+.input-container{
+  position: relative;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin:auto;
+  margin-top:14px;
+}
+
+input{
+  width:75%;
+  background-color: rgb(221, 218, 218);
+  color:black;
+  /* box-shadow: 3px 4px 2px 2px rgba(0, 0, 0, 0.233); */
+}
+
+input:focus{
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.233);
+  background-color: rgb(221, 218, 218);
+  border-color: rgb(221, 218, 218);
+}
+
+
+#inputIcon {
+  box-shadow: 3px 4px 2px 2px rgba(0, 0, 0, 0.233);
+  /* margin: 12px 0px; */
+  /* margin-left: 10px;
+  margin-right: 5px; */
+  height: 35px;
+  width: 35px;
+  color: white;
+  background-color: rgba(67, 0, 122, 0.87);
+  border-radius: 6px;
+}
+
+
+#username {
+  margin-top: 8px;
+  margin-left:-1px; 
+}
+
+#password {
+  /* margin:auto; */
+  margin-top: 8px;
+  margin-left:-1px;
+}
+
+#btndiv{
+  width:100%;
+  margin-top:3vh;
+  text-align: center;
+}
+
+#btndiv>button{
+  width: 60%;
+  background-color: rgba(67, 0, 122, 0.87);
+  /* background-color: rgb(247, 170, 29); */
+  border: none;
+}
+
+#GoToSignOut{
+  text-align: center;
+  font-weight: 500;
+  margin-top: 2vh;
+}
+
+#createOne{
+  color:rgba(67, 0, 122, 0.87);
+  font-weight: 700;
+}
